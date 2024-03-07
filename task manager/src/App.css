@@ -1,16 +1,36 @@
-.container {
+.App {
   display: flex;
-  height: 100vh;
-  
+  justify-content: center;
+  align-items: flex-start;
+  padding: 20px;
 }
 
-.aside {
-  flex: 3;
-  background-color:chocolate;
-  
+.column {
+  width: 200px;
+  min-height: 200px;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+  margin: 0 20px;
+  padding: 10px;
 }
 
-.main-content {
-  flex: 5;
-  background-color: rgb(236, 240, 9);
+.task {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.btn {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #0056b3;
 }
